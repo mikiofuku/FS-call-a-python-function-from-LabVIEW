@@ -3,8 +3,28 @@ import random
 
 def multiply(val_int, val_int2):
 	return val_int * val_int2
+	
 
-def run(val_int, val_dbl, val_str, val_intarray, val_dblarray, val_dblarray_re, val_dblarray_im, val_bool_2darray, cluster):
+def val_bool_2darray(val_bool_2darray):
+    print(type(val_bool_2darray))
+    print(type(val_bool_2darray[0][0]))
+    print(val_bool_2darray)    
+    print()    
+    
+    # 入力待ち
+    input()
+
+def val_cluster(cluster):
+
+    # cluster
+    print(type(cluster))
+    print(cluster)
+    print()
+
+    # 入力待ち
+    input()
+    
+def run(val_int, val_dbl, val_str, val_intarray, val_dblarray, val_dblarray_re, val_dblarray_im):
     
     print(type(val_int))
     print(val_int)
@@ -49,18 +69,8 @@ def run(val_int, val_dbl, val_str, val_intarray, val_dblarray, val_dblarray_re, 
     print(val_complex_array)    
     print()
 
-    print(type(val_bool_2darray))
-    print(type(val_bool_2darray[0][0]))
-    print(val_bool_2darray)    
-    print()    
-
-    # cluster
-    print(type(cluster))
-    print(cluster)
-    print()
-
     # 入力待ち
-    #input()
+    input()
 
 def return_two_arrays():        
     # return value
